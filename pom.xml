@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.peculiar.proportionalities</groupId>
+    <artifactId>just-breathe</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Just Breathe</name>
+    <description>
+        A web application to celebrate the small wins as a person works towards their goal to quit smoking.
+        Taking a positive spin on the process rather than the negativity often associated with quitting,
+        the app is a tool to help encourage the person to continue their journey by reminding them their
+        ultimate goal, why they are doing it, and how far they've already come.
+    </description>
+    <url>http://justbreathe.heroku.com</url>
+    <inceptionYear>2015</inceptionYear>
+
+    <!--<scm>-->
+        <!--<url></url>-->
+        <!--<developerConnection></developerConnection>-->
+    <!--</scm>-->
+
+    <developers>
+        <developer>
+            <name>Tarish Smith</name>
+            <email>tarish@gmail.com</email>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
